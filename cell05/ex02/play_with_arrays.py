@@ -1,0 +1,5 @@
+a = [2, 8, 9, 48, 8, 22, -12, 2]
+new_a = [x + 2 for x in a if x > 5]
+
+print(a)
+print(new_a)
