@@ -28,11 +28,12 @@ def checkmate(board):
     for r in range(n):
         for c in range(n):
             if row[r][c] == 'K':
+                count +=1
                 kr = r
                 kc = c
 
     #check for invalid king ไม่เกิน 1 หรือไม่มี
-    if c != 1:
+    if count != 1:
         print("Invalid king")
         return
     
