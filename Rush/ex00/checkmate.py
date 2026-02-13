@@ -22,7 +22,7 @@ def checkmate(board):
     #set เมื่อยังไม่เจอ king
     kr = -1
     kc = -1
-    c = 0
+    count = 0
 
     #วนแถวกับคอลัมน์ 0ถึง(n-1)
     for r in range(n):
